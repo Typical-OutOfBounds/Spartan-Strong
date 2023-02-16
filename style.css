@@ -1,0 +1,66 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: msu;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: xxx-large;
+}
+
+nav {
+    background-color: #18453B;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content {
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+}
+
+@font-face {
+    font-family: msu;
+    src: url(NCAA\ Michigan\ St\ Spartans.otf);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #18453B;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#spartan-heart {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container-item {
+    width: 40%;
+}
+
+#spartan-statue {
+    min-height: 300px;
+    margin: 0 auto;
+    max-height: 800px;
+    border-radius: 15px;
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
