@@ -17,7 +17,7 @@ h2 {
 }
 
 .student-image {
-    border-radius: 15px;;
+    border-radius: 15px;
 }
 
 @media screen and (max-width: 650px) {
@@ -28,6 +28,15 @@ h2 {
 
     .spartan-container {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .spartan-container-item {
+        width: 80%;
+    }
+
+    .student-image {
+        width: 100%;
     }
 
     .container-item {
