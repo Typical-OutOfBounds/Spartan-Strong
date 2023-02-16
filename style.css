@@ -64,3 +64,14 @@ footer {
     flex-direction: column;
     justify-content: center;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#learn {
+    padding: 10px;
+    background-color: #18453B;
+    color: white;
+}

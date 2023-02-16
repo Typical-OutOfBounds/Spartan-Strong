@@ -1,0 +1,17 @@
+.spartan-container {
+    display: flex;
+    justify-content: center;
+    column-gap: 5vw;
+    margin-top: 5vh;
+}
+
+.spartan-container-item {
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+}
