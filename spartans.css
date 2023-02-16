@@ -15,3 +15,38 @@
 h2 {
     text-align: center;
 }
+
+.student-image {
+    border-radius: 15px;;
+}
+
+@media screen and (max-width: 650px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .spartan-container {
+        flex-direction: column;
+    }
+
+    .container-item {
+        width: 80%;
+    }
+
+    #spartan-statue {
+        height: auto;
+        width: 100%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: space-between;
+    }
+
+    footer {
+        position: relative;
+    }
+}

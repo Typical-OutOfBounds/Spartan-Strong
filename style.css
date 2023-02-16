@@ -26,6 +26,7 @@ nav {
     font-size: large;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 75px;
 }
 
 @font-face {
@@ -34,13 +35,13 @@ nav {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
     background-color: #18453B;
     height: 75px;
     width: 100%;
     display: flex;
     justify-content: center;
+    position: absolute;
+    bottom: 0;
 }
 
 #spartan-heart {
@@ -74,4 +75,31 @@ a {
     padding: 10px;
     background-color: #18453B;
     color: white;
+}
+
+@media screen and (max-width: 650px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-item {
+        width: 80%;
+    }
+
+    #spartan-statue {
+        height: auto;
+        width: 100%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: space-between;
+    }
+
+    footer {
+        position: relative;
+    }
 }
