@@ -71,7 +71,17 @@ a {
     color: black;
 }
 
+#head {
+    color: white;
+}
+
 #learn {
+    padding: 10px;
+    background-color: #18453B;
+    color: white;
+}
+
+.link {
     padding: 10px;
     background-color: #18453B;
     color: white;
@@ -81,6 +91,7 @@ a {
     .content {
         flex-direction: column;
         align-items: center;
+        row-gap: 20px;
     }
 
     .container-item {

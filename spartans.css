@@ -16,6 +16,10 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    margin: 0;
+}
+
 .student-image {
     border-radius: 15px;
 }
@@ -29,6 +33,7 @@ h2 {
     .spartan-container {
         flex-direction: column;
         align-items: center;
+        row-gap: 20px;
     }
 
     .spartan-container-item {
