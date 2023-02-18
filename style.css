@@ -87,6 +87,11 @@ a {
     color: white;
 }
 
+.section {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
 @media screen and (max-width: 650px) {
     .content {
         flex-direction: column;
